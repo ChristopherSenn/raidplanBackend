@@ -1,0 +1,11 @@
+CREATE TABLE profession_icons (id int NOT NULL AUTO_INCREMENT, name varchar(50) NOT NULL, specId varchar(25) NOT NULL, PRIMARY KEY(id));
+
+INSERT INTO profession_icons (name, specId) VALUES ("Warrior", "Warrior"), ("Berserker", "18"), ("Spellbreaker", "61"),
+("Guardian", "Guardian"), ("Dragonhunter", "27"), ("Firebrand", "62"),
+("Revenant", "Revenant"), ("Herald", "52"), ("Renegade", "63"),
+("Ranger", "Ranger"), ("Druid", "5"), ("Soulbeast", "55"),
+("Thief", "Thief"), ("Daredevil", "7"), ("Deadeye", "58"),
+("Engineer", "Engineer"), ("Scrapper", "43"), ("Holosmith", "57"),
+("Necromancer", "Necromancer"), ("Reaper", "34"), ("Scourge", "60"),
+("Elementalist", "Elementalist"), ("Tempest", "48"), ("Weaver", "56"),
+("Mesmer", "Mesmer"), ("Chronomancer", "40"), ("Mirage", "59")
